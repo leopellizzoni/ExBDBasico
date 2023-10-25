@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 public class NossoBDHelper extends SQLiteOpenHelper {
     private static final String DB_NAME = "bdexemplo"; // Nome do banco de dados
-    private static final int DB_VERSION = 1; //Versão do banco de dados. Testar 1 e 2.
+    private static final int DB_VERSION = 2; //Versão do banco de dados. Testar 1 e 2.
     private static final String DB_TABELA = "TESTE";
 
     public NossoBDHelper(@Nullable Context context) {

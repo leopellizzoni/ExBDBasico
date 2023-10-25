@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 long reg = nossoBDHelper.adicionarNovaInformacao(edtNome.getText().toString(), edtDescricao.getText().toString());
-                Toast.makeText(MainActivity.this, "Reg. Adicionados: " + reg, Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Adicionado com sucesso. _id: " + reg, Toast.LENGTH_LONG).show();
             }
         });
 
